@@ -90,8 +90,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
+    margin-left: 70px;
     height: 450px;
+    
 
 }
 
@@ -227,7 +228,7 @@ transform: translateY(4px);
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 60px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .container{
     background: repeating-linear-gradient(221.86deg, #41c997 13%, #e2e1e7 31%, #22c422 25%);
