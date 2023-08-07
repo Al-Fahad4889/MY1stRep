@@ -80,9 +80,14 @@
     border-radius: 50px;
     background-image: linear-gradient(to right, rgb(206, 51, 13), rgb(209, 212, 17), rgb(253, 7, 7));
 }
+.t2{
+  text-align: center;
+  justify-content: center;
 
+  display: grid;
+}
 .Grid1 {
-    display: grid;
+    display: flex;
     background-color: #f1f1f1;
     ;
     width: 1200px;
@@ -90,8 +95,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 70px;
+    
+    justify-content: space-between;
     height: 450px;
+
     
 
 }
